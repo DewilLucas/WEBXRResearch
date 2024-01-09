@@ -7,8 +7,8 @@ public class TextChanger : MonoBehaviour
 
     // Reference to the UI Text component
     public TMPro.TextMeshProUGUI textComponent;
-
-    void Update()
+    private string previous;
+    void FixedUpdate()
     {
         // Call the JS method on update, if needed
         GetDeviceLocation();
@@ -16,11 +16,29 @@ public class TextChanger : MonoBehaviour
 
     public void UpdateLocation(int ptr)
     {
-        // Convert the pointer to a string
-        string location = Marshal.PtrToStringAnsi((IntPtr)ptr);
-        Debug.Log("Location: " + location);
-        // Here you can update your UI or do other operations with the location data
-        textComponent.text = location;
+        if (String.IsNullOrEmpty(previous))
+        {
+            // Convert the pointer to a string
+            string location = Marshal.PtrToStringAnsi((IntPtr)ptr);
+            Debug.Log("Location: " + location);
+            // Here you can update your UI or do other operations with the location data
+            textComponent.text = location;
+        }
+        else
+        {
+            // Convert the pointer to a string
+            string location = Marshal.PtrToStringAnsi((IntPtr)ptr);
+            // Check if location is the same as previous
+            if (location == previous)
+            {
+                // If it is, return
+                return;
+            }
+            //Debug.Log("Location: " + location);
+            // Here you can update your UI or do other operations with the location data
+            textComponent.text = location;
+        }
+        
     }
 
     [DllImport("__Internal")]
