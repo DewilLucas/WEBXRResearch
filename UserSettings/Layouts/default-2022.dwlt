@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 79
+  controlID: 133
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -146,15 +146,15 @@ MonoBehaviour:
     y: 396.8
     width: 1076.8
     height: 326
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 14}
   - {fileID: 19}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 80
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 19
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SK_Geolocator/Scripts
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -392,16 +392,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SK_Geolocator/Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\lucas\Desktop\School\Jaar3\Research\WEBXRResearch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 40.998535}
-    m_SelectedIDs: 0c5c0200
-    m_LastClickedID: 154636
-    m_ExpandedIDs: 000000005a7901005e79010060790100627901006479010066790100085c02000c5c020000ca9a3b
+    scrollPos: {x: 0, y: 7}
+    m_SelectedIDs: 427a0100
+    m_LastClickedID: 96834
+    m_ExpandedIDs: 000000001a7a01001c7a01001e7a0100207a0100227a0100247a0100267a010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a7901005c7901005e79010060790100627901006479010066790100
+    m_ExpandedIDs: 000000001a7a01001c7a01001e7a0100207a0100227a0100247a0100267a0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,9 +571,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3c5c0200
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 52b1f2ffa6b1f2ff488ef3ff566af4ffe66af4ffa274f4fff674f4ffd851f5fffa6ef5ff4e6ff5ff304cf6ffd258f6ffea97f6ff3e98f6ffd074f7ffec77f7ff3e51f8fff851f8ff325ef8ff865ef8ff1c3bf9ffde4df9ff324ef9ff162bfaff5c36faff6036faff6836faff700ffbff3410fbff0a53fbff5e53fbff3630fcfff427fdff4828fdff2c05feff5a09feff6ee2feffdae8feff24fbffff5c600200f49b03000ebe0e00366e10007833120058661a00
+      m_ExpandedIDs: 4ce5fcffa0e5fcff8ac2fdff9026feffe426feffce03ffff7a24ffff7e24ffff24fbffff127600003e760000547600008a760000e4760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -967,9 +967,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1.3999939, z: 1}
+    m_Target: {x: 194.60004, y: 177.4, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 1.3999939, z: 1}
+    m_Value: {x: 194.60004, y: 177.4, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1015,13 +1015,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.026684785, y: -0.016189264, z: -0.00046956143, w: 0.9995502}
+    m_Target: {x: -0.03414239, y: 0.05125471, z: 0.0017155254, w: 0.99813974}
     speed: 2
-    m_Value: {x: -0.026683787, y: -0.016188659, z: -0.00046954385, w: 0.9995128}
+    m_Value: {x: -0.034141045, y: 0.051252693, z: 0.0017154579, w: 0.99810046}
   m_Size:
-    m_Target: 0.5085457
+    m_Target: 141.93008
     speed: 2
-    m_Value: 0.5085457
+    m_Value: 141.93008
   m_Ortho:
     m_Target: 0
     speed: 2
