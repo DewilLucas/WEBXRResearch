@@ -794,12 +794,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 865075384207369476}
-  minLatitude: 50.8236956
-  maxLatitude: 50.8237196
-  minLongitude: 3.2518905
-  maxLongitude: 3.2519178
+  minLatitude1: 50.8236956
+  maxLatitude1: 50.8237196
+  minLongitude1: 3.2518905
+  maxLongitude1: 3.2519178
+  minLatitude2: 50.823558
+  maxLatitude2: 50.8237015
+  minLongitude2: 3.251874
+  maxLongitude2: 3.252027
   textComponent: {fileID: 2115744728}
   spawnPoint: {fileID: 2117389660}
+  spawnPoint2: {fileID: 1448119983}
 --- !u!4 &543368437
 Transform:
   m_ObjectHideFlags: 0
@@ -1638,6 +1643,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1448119982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448119983}
+  m_Layer: 0
+  m_Name: Spawnpoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448119983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448119982}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.654, y: -1.517, z: -10.087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1700282748
 GameObject:
   m_ObjectHideFlags: 0
@@ -17587,4 +17623,5 @@ SceneRoots:
   - {fileID: 675278036}
   - {fileID: 738724952}
   - {fileID: 2117389660}
+  - {fileID: 1448119983}
   - {fileID: 1928055721}

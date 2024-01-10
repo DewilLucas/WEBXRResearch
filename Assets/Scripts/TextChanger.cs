@@ -15,14 +15,21 @@ public class TextChanger : MonoBehaviour
 
 
     public GameObject player;
-    public double minLatitude;
-    public double maxLatitude;
-    public double minLongitude;
-    public double maxLongitude;
+    public double minLatitude1 = 50.8236956;
+    public double maxLatitude1 = 50.8237196;
+    public double minLongitude1 = 3.2518905;
+    public double maxLongitude1 = 3.2519178;
+
+    public double minLatitude2;
+    public double maxLatitude2;
+    public double minLongitude2;
+    public double maxLongitude2;
+
     // Reference to the UI Text component
     public TMPro.TextMeshProUGUI textComponent;
     private string previous;
     public Transform spawnPoint;
+    public Transform spawnPoint2;
     void FixedUpdate()
     {
         // Call the JS method on update, if needed
@@ -44,17 +51,25 @@ public class TextChanger : MonoBehaviour
             Debug.Log("Latitude: " + locationData.latitude);
             Debug.Log("Longitude: " + locationData.longitude);
             Debug.Log("Accuracy: " + locationData.accuracy);
-            Debug.Log("Min Latitude: " + minLatitude);
-            Debug.Log("Max Latitude: " + maxLatitude);
-            Debug.Log("Min Longitude: " + minLongitude);
-            Debug.Log("Max Longitude: " + maxLongitude);
-            if (locationData.latitude > minLatitude && locationData.latitude < maxLatitude &&
-                locationData.longitude > minLongitude && locationData.longitude < maxLongitude)
+            Debug.Log("Min Latitude: " + minLatitude1);
+            Debug.Log("Max Latitude: " + maxLatitude1);
+            Debug.Log("Min Longitude: " + minLongitude1);
+            Debug.Log("Max Longitude: " + maxLongitude1);
+            if (locationData.latitude > minLatitude1 && locationData.latitude < maxLatitude1 &&
+                locationData.longitude > minLongitude1 && locationData.longitude < maxLongitude1)
             {
                 Debug.Log("In bounds");
                 player.transform.position = spawnPoint.position;
             }
 
+
+           if (locationData.latitude > minLatitude2 && locationData.latitude < maxLatitude2 &&
+                locationData.longitude > minLongitude2 && locationData.longitude < maxLongitude2)
+            {
+                Debug.Log("In bounds");
+                player.transform.position = spawnPoint2.position;
+            }
+           
         }
         else
         {
