@@ -1,55 +1,93 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Barcode Scanner</title>
-</head>
-<body>
-    <script src="html5-qrcode.min.js"></script>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #f3f3f3;
-        }
-        .reader {
-            width: 100%;
-            height: 100%;
-        }
-      .result{
-        position: absolute;
-            bottom: 20px;
-            left: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-      }
-      .row{
-        display:flex;
-      }
-    </style>
-    
-    
-    <div id="reader"></div>
-    <div id="result">Result Here</div>
-    
-    
-    <script type="text/javascript">
-    function onScanSuccess(qrCodeMessage) {
-        document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
-    }
-    
-    function onScanError(errorMessage) {
-      //handle scan error
-    }
-    
-    var html5QrcodeScanner = new Html5QrcodeScanner(
-        "reader", { fps: 30, qrbox: 250 });
-    html5QrcodeScanner.render(onScanSuccess, onScanError);
-    
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | WEBXRResearch</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <div id="unity-container">
+      <div id="unity-canvas-container" style="width: 100%; height: 100%;">
+        <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
+      </div>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <button id="entervr" value="Enter VR" disabled>VR</button>
+        <button id="enterar" value="Enter AR" disabled>AR</button>
+        <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
+        <div id="unity-build-title">WEBXRResearch</div>
+      </div>
+    </div>
+    <script>
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/buildstest.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/buildstest.data.unityweb",
+        frameworkUrl: buildUrl + "/buildstest.framework.js.unityweb",
+        codeUrl: buildUrl + "/buildstest.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "WEBXRResearch",
+        productVersion: "1.0",
+      };
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var canvasContainer = document.querySelector("#unity-canvas-container");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var unityInstance = null;
+      
+
+      loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((instance) => {
+          unityInstance = instance;
+          loadingBar.style.display = "none";
+          if (fullscreenButton)
+          {
+            fullscreenButton.onclick = () => {
+              unityInstance.SetFullscreen(1);
+            };
+          }
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+
+      let enterARButton = document.getElementById('enterar');
+      let enterVRButton = document.getElementById('entervr');
+
+      document.addEventListener('onARSupportedCheck', function (event) {
+        enterARButton.disabled = !event.detail.supported;
+      }, false);
+      document.addEventListener('onVRSupportedCheck', function (event) {
+        enterVRButton.disabled = !event.detail.supported;
+      }, false);
+
+      enterARButton.addEventListener('click', function (event) {
+        unityInstance.Module.WebXR.toggleAR();
+      }, false);
+      enterVRButton.addEventListener('click', function (event) {
+        unityInstance.Module.WebXR.toggleVR();
+      }, false);
     </script>
-</body>
+  </body>
 </html>
