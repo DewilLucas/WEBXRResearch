@@ -7,34 +7,42 @@ using UnityEngine.InputSystem;
 
 public class PlayerNav : MonoBehaviour
 {
-    private NavMeshAgent agent;
     private LineRenderer line;
-
     public Transform target;
-
+    public GameObject floor;
+    public GameObject Stair;
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
         line = gameObject.GetComponent<LineRenderer>();
         line.positionCount = 2;
         line.startWidth = 0.1f;
         line.endWidth = 0.1f;
-
-        //line.material = new Material(Shader.Find("Sprites/Default"));
     }
 
     void Update()
     {
-        if (target != null)
-        {
-            // Set the destination for the NavMeshAgent
-            agent.SetDestination(target.position);
+        // Calculate the path without using NavMeshAgent
+        NavMeshPath path = new NavMeshPath();
+        NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
 
-            // Update the line renderer positions with corners
-            Vector3[] positions = agent.path.corners.Select(corner => new Vector3(corner.x, 0, corner.z)).ToArray(); // Set y-coordinate to 0 for floor level and get all corners
-            line.positionCount = positions.Length;
-            line.SetPositions(positions);
+        // Update the line renderer positions with corners
+        Vector3[] positions = path.corners.ToArray();
+
+        // Adjust line to avoid obstacles
+        for (int i = 1; i < positions.Length; i++)
+        {
+            RaycastHit hit;
+            if (Physics.Linecast(positions[i - 1], positions[i], out hit))
+            {
+                positions[i] = hit.point;
+                line.positionCount = i + 1;
+                break; // Stop checking further, as we hit an obstacle
+            }
         }
+
+        // Set the positions to the LineRenderer
+        line.positionCount = positions.Length;
+        line.SetPositions(positions);
     }
 
 
