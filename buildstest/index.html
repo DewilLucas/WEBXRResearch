@@ -29,6 +29,19 @@
       </div>
     </div>
     <script>
+      // Check if id is not null in url
+      var urlParams = new URLSearchParams(window.location.search);
+      var id = urlParams.get('id');
+      if (id != null) {
+        console.log("ID is not null");
+        console.log(id);
+      }
+      else {
+        console.log("ID is null");
+        
+        // Go to index.html
+        window.location.href='index2.html';
+      }
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/buildstest.loader.js";
       var config = {

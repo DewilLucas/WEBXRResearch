@@ -40,6 +40,14 @@
     <script type="text/javascript">
     function onScanSuccess(qrCodeMessage) {
         document.getElementById('result').innerHTML = '<span class="result">'+qrCodeMessage+'</span>';
+        switch (qrCodeMessage) {
+          case "WC":
+            console.log("IT was WC")
+            // Go to index.html
+            window.location.href='index.html?id='+qrCodeMessage;
+            //window.location.href=window.location + "/index.html?id="+qrCodeMessage
+            break;
+        }
     }
     
     function onScanError(errorMessage) {
