@@ -29,19 +29,22 @@
       </div>
     </div>
     <script>
-      // Check if id is not null in url
+      // Check if id is not null in url also check platform
       var urlParams = new URLSearchParams(window.location.search);
       var id = urlParams.get('id');
-      if (id != null) {
+      var platform = urlParams.get('platform');
+      if (id != null && platform!= null) {
         console.log("ID is not null");
         console.log(id);
+        console.log(platform);
       }
       else {
         console.log("ID is null");
-        
+
         // Go to index.html
         window.location.href='index3.html';
       }
+      
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/buildstest.loader.js";
       var config = {
@@ -88,6 +91,16 @@
       let enterARButton = document.getElementById('enterar');
       let enterVRButton = document.getElementById('entervr');
 
+      // if platform is AR make VR not visible also click on the right button
+      if (platform == "ar") {
+        enterVRButton.style.display = "none";
+        alert("Please press on the AR button for starting the route")
+      }
+      // if platform is VR make AR not visible also click on the right button
+      else if (platform == "vr") {
+        enterARButton.style.display = "none";
+      }
+
       document.addEventListener('onARSupportedCheck', function (event) {
         enterARButton.disabled = !event.detail.supported;
       }, false);
@@ -101,6 +114,7 @@
       enterVRButton.addEventListener('click', function (event) {
         unityInstance.Module.WebXR.toggleVR();
       }, false);
+      
     </script>
   </body>
 </html>

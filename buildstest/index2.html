@@ -111,12 +111,11 @@ domReady(function () {
  
     // If found you qr code
     function onScanSuccess(decodeText, decodeResult) {
-        alert("You Qr is : " + decodeText, decodeResult);
         switch (decodeText) {
           case "WC":
             console.log("IT was WC")
-            // Go to index.html
-            window.location.href='index.html?id='+decodeText;
+            // Go to index.html add also platform
+            window.location.href='index.html?id='+decodeText+'&platform=ar';
             break;
         }
     }
