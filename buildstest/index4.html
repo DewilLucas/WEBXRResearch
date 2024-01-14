@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .location-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .location-list li {
+            margin-bottom: 10px;
+        }
+
+        .location-list li label {
+            display: block;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .location-list li label:hover {
+            background-color: #e6e6e6;
+        }
+
+        .location-list li input[type="radio"] {
+            display: none;
+        }
+
+        .location-list li input[type="radio"]:checked + label {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Location</h1>
+        <ul class="location-list">
+            <li>
+                <input type="radio" id="location1" name="location" value="location1">
+                <label for="location1">Location 1</label>
+            </li>
+            <li>
+                <input type="radio" id="location2" name="location" value="location2">
+                <label for="location2">Location 2</label>
+            </li>
+            <li>
+                <input type="radio" id="location3" name="location" value="location3">
+                <label for="location3">Location 3</label>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        // Get all radio buttons
+        var radios = document.getElementsByName('location');
+    
+        // Add a change event listener to each radio button
+        for (var i = 0, length = radios.length; i < length; i++) {
+            radios[i].addEventListener('change', function() {
+                // If this radio button is checked
+                if (this.checked) {
+                    // Redirect to index.html with the selected location's id as a parameter
+                    window.location.href = 'index.html?id=' + this.value;
+                }
+            });
+        }
+    </script>
+</body>
+</html>
