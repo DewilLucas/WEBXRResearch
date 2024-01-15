@@ -11,6 +11,9 @@ public class PlayerNav : MonoBehaviour
     public Transform target;
     public GameObject floor;
     public GameObject Stair;
+
+
+    public float margin = 0.1f; // Set the margin you want for the line
     void Start()
     {
         line = gameObject.GetComponent<LineRenderer>();
@@ -34,7 +37,7 @@ public class PlayerNav : MonoBehaviour
             RaycastHit hit;
             if (Physics.Linecast(positions[i - 1], positions[i], out hit))
             {
-                positions[i] = hit.point;
+                positions[i] = hit.point + hit.normal * margin; // Offset the hit 
                 line.positionCount = i + 1;
                 break; // Stop checking further, as we hit an obstacle
             }

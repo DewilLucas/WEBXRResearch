@@ -6436,6 +6436,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8432682251145337208, guid: 004400efc37190b41a85a091fb1fcdde,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 113bc7a7a2ad1b245a4c28f0838cbbd1, type: 2}
     - target: {fileID: 8523772855540137367, guid: 004400efc37190b41a85a091fb1fcdde,
         type: 3}
       propertyPath: m_IsActive
@@ -10631,6 +10636,7 @@ MonoBehaviour:
   target: {fileID: 326094252}
   floor: {fileID: 719028568}
   Stair: {fileID: 299791261}
+  margin: 10
 --- !u!195 &969583541
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13840,7 +13846,7 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.04
+  m_VoxelSize: 0.33333334
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 1cb0bc60bf903124f947faa6121d3ad8, type: 2}
   m_BuildHeightMesh: 0
@@ -29791,7 +29797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ARCamera: {fileID: 6335234713473908436}
-  height: 1
 --- !u!114 &8454721203349966758
 MonoBehaviour:
   m_ObjectHideFlags: 0
