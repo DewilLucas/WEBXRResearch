@@ -6,7 +6,7 @@ public class SpawnPointScript : MonoBehaviour
 {
     public GetSpawningPointScript spawningPointScript;
 
-    public Transform spawnPoint;
+    public Transform[] spawnPoints;
 
     // Start is called before the first frame update
     void Start()
@@ -22,9 +22,15 @@ public class SpawnPointScript : MonoBehaviour
                 switch (id.ToLower())
                 {
                     case "wc":
-                        if (spawnPoint != null)
+                        if (spawnPoints[0] != null)
                         {
-                            transform.position = spawnPoint.position;
+                            transform.position = spawnPoints[0].position;
+                        }
+                        break;
+                    case "locaal1":
+                        if (spawnPoints[1] != null)
+                        {
+                            transform.position = spawnPoints[1].position;
                         }
                         break;
                 }
