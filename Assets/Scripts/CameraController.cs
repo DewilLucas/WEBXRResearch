@@ -5,12 +5,17 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public GameObject ARCamera; // Assign your AR Camera in the inspector
-    public float height = 1.0f; // Set the height you want for the camera
+    private float initialHeight; // This will store the initial height of the camera
+
+    void Start()
+    {
+        initialHeight = ARCamera.transform.position.y; // Store the initial height of the camera
+    }
 
     void Update()
     {
         Vector3 cameraPosition = ARCamera.transform.position;
-        cameraPosition.y = height;
+        cameraPosition.y = initialHeight; // Set the y-coordinate to the initial height
         ARCamera.transform.position = cameraPosition;
     }
 }

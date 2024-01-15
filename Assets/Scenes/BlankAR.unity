@@ -29791,7 +29791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ARCamera: {fileID: 6335234713473908436}
-  height: 0
+  height: 1
 --- !u!114 &8454721203349966758
 MonoBehaviour:
   m_ObjectHideFlags: 0
