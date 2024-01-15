@@ -905,7 +905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 150045553}
   - component: {fileID: 150045554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SceneHitTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7795,7 +7795,7 @@ GameObject:
   - component: {fileID: 412646910}
   - component: {fileID: 412646912}
   - component: {fileID: 412646911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9709,7 +9709,7 @@ GameObject:
   - component: {fileID: 797275230}
   - component: {fileID: 797275232}
   - component: {fileID: 797275231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10528,7 +10528,7 @@ GameObject:
   - component: {fileID: 969583540}
   - component: {fileID: 969583541}
   - component: {fileID: 969583542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10544,7 +10544,7 @@ Transform:
   m_GameObject: {fileID: 969583535}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.7, z: 0}
+  m_LocalPosition: {x: 0, y: -2.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10774,7 +10774,7 @@ GameObject:
   - component: {fileID: 991010919}
   - component: {fileID: 991010921}
   - component: {fileID: 991010920}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11511,7 +11511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1141152873
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13625,7 +13625,7 @@ GameObject:
   - component: {fileID: 1700282749}
   - component: {fileID: 1700282751}
   - component: {fileID: 1700282750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15053,30 +15053,245 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1631729514983400575}
     m_Modifications:
+    - target: {fileID: 264741874542696836, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 872650308173834591, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 872650308379421633, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 895918403217596474, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347260198610423114, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445164168516310259, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1445164168763709037, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571819876068155739, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1635265229805322529, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664580262361020631, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664580262625196617, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722891874241318160, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1925973543071422138, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205925230149328031, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402698150184293, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402698528158555, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402698767422737, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402698773950504, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402699213156460, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402699332202893, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402699640287295, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402699723314283, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2312402699836953647, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372476104464761951, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431708490550554439, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431708490865061337, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509756936787257364, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522237663193446411, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3104971548485255466, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3166814444043639594, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
         type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 7427464094608424439}
+    - target: {fileID: 3293510487422712386, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3293510487661852892, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977197974065273168, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4256691345908762425, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270725470432730192, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800426466548343938, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4837942043424170029, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
         type: 3}
       propertyPath: m_BlockingMask.m_Bits
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984589226487706724, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5006513446486667021, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030734265454020863, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030734265712111729, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030734266349821021, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5030734266366949665, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
         type: 3}
       propertyPath: m_BlockingMask.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 5030734266366949667, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5030734266366949668, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
         type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 7427464094608424439}
+    - target: {fileID: 5030734266792631114, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5030734267259534324, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
         type: 3}
       propertyPath: m_Name
       value: Hand Menu With Button Activation
+      objectReference: {fileID: 0}
+    - target: {fileID: 5030734267259534324, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5030734267259534325, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
         type: 3}
@@ -15127,6 +15342,96 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389259498128088392, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389259498450984918, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339932410750474957, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6339932410989615187, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617087079894059800, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6617087080200178054, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6730825937129263167, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6778729554687940349, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809219767228791835, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6986628947786970283, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016142335816606385, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264893296881729166, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555309946385656085, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7632328176030769678, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7843605129602311550, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224234348556179612, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224234348778412546, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062638936859029936, guid: 6a73dbe7f34ea864eb86f5bbfccaa033,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15891,7 +16196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5334715311068741067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_RingTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15927,7 +16232,7 @@ GameObject:
   - component: {fileID: 5079883343653078045}
   - component: {fileID: 6016447223186185549}
   - component: {fileID: 4531637226424194892}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15961,7 +16266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8780191869896416607}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_Palm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15995,7 +16300,7 @@ GameObject:
   - component: {fileID: 8006677011771040722}
   - component: {fileID: 5648313598899455239}
   - component: {fileID: 4325476912889551126}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Turn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16093,7 +16398,7 @@ GameObject:
   - component: {fileID: 8786890606743318621}
   - component: {fileID: 5571176037749487725}
   - component: {fileID: 1285569497198956886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16112,7 +16417,7 @@ GameObject:
   - component: {fileID: 8576013541111571502}
   - component: {fileID: 3036786093850022427}
   - component: {fileID: 3919601223687578194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16240,7 +16545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2450772222993936931}
   - component: {fileID: 3220125638946381754}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16735,7 +17040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8075973881248388819}
   - component: {fileID: 1074108443309674179}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Teleportation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17038,7 +17343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6717151419868461892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17054,7 +17359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889929406307685272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_IndexIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17087,7 +17392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5773256365573000346}
   - component: {fileID: 5773256365573000347}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XR Interaction WebXR Setup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17150,7 +17455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8654907598983622781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_LittleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17181,7 +17486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490852979047929047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17226,7 +17531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1080962833613210320}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_IndexMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17275,7 +17580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4630578717191437480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17409,7 +17714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6626820585066530823}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_RingTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17425,7 +17730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8985979706798500147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_ThumbMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17444,7 +17749,7 @@ GameObject:
   - component: {fileID: 7098984960296543557}
   - component: {fileID: 4585899213097997168}
   - component: {fileID: 7912899723950971527}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17462,7 +17767,7 @@ GameObject:
   - component: {fileID: 7346949385435520964}
   - component: {fileID: 5644603409226625389}
   - component: {fileID: 3519454820560520787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17478,7 +17783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2935459156356078000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_RingMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17498,7 +17803,7 @@ GameObject:
   - component: {fileID: 2943282963166377243}
   - component: {fileID: 2880249761693398288}
   - component: {fileID: 3398939724398571332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Hand Interaction Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17605,7 +17910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2325405879101189152}
   - component: {fileID: 801004177453591958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17903,7 +18208,7 @@ GameObject:
   - component: {fileID: 1491062472539485379}
   - component: {fileID: 4592291969130103260}
   - component: {fileID: 1491062472539485378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Ray Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17934,7 +18239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6760429396460558113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_ThumbDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18081,7 +18386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3008293342305366410}
   - component: {fileID: 5615803881644937395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18098,7 +18403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9174015871050144867}
   - component: {fileID: 1478900901026843373}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Move
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18249,7 +18554,7 @@ GameObject:
   - component: {fileID: 1631729514287002666}
   - component: {fileID: 6488694958121504836}
   - component: {fileID: 4439890460421905731}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Teleport Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18788,7 +19093,7 @@ GameObject:
   - component: {fileID: 6358836466634659942}
   - component: {fileID: 1631729514910275800}
   - component: {fileID: 5335575772858838675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18823,7 +19128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1631729514983400575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18872,7 +19177,7 @@ GameObject:
   - component: {fileID: 6118860693031130189}
   - component: {fileID: 1631729515388377144}
   - component: {fileID: 1995261817838193553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19787,7 +20092,7 @@ GameObject:
   - component: {fileID: 1762428703895169586}
   - component: {fileID: 3710737178525900589}
   - component: {fileID: 1762428703895169587}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Direct Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19838,7 +20143,7 @@ GameObject:
   - component: {fileID: 1932236488544649382}
   - component: {fileID: 3592437113305445817}
   - component: {fileID: 1932236488544649383}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Ray Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20290,7 +20595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4182290902546335613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_MiddleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20350,7 +20655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6700027695015125134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_LittleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20610,7 +20915,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4570829059413362314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_RingDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20770,7 +21075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6611265727788659674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20882,7 +21187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1019775215743746826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_MiddleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20914,7 +21219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8196534751606189760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_IndexTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20949,7 +21254,7 @@ GameObject:
   - component: {fileID: 4138346248505283966}
   - component: {fileID: 7950642540207029479}
   - component: {fileID: 5002057371888063789}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21062,7 +21367,7 @@ GameObject:
   - component: {fileID: 6345055211612771396}
   - component: {fileID: 7831671230984133748}
   - component: {fileID: 3470066179661526351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21083,7 +21388,7 @@ GameObject:
   - component: {fileID: 8744649902890620373}
   - component: {fileID: 4001387608471706566}
   - component: {fileID: 596594115926137450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21115,7 +21420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1037151940332016657}
   - component: {fileID: 6330485378724901005}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Visualizer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21150,7 +21455,7 @@ GameObject:
   - component: {fileID: 761357646649907245}
   - component: {fileID: 3319067115748928986}
   - component: {fileID: 2082921120483525787}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Grab Move
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21167,7 +21472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3118629712124755030}
   - component: {fileID: 8135557449983196146}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21442,7 +21747,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7343059571515207691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_MiddleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21561,7 +21866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3423096715929609682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_LittleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21609,7 +21914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2189295748271677822}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_RingIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21788,7 +22093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4757134374398349456}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_IndexDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21821,7 +22126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4536510040391259598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_Palm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21837,7 +22142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2702814492191734508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_MiddleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21982,7 +22287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6417449548655873219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_LittleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22088,7 +22393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7951299460468176235}
   - component: {fileID: 1127265218212662947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22212,7 +22517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354695733799663158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_RingDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22319,7 +22624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124662872249927737}
   - component: {fileID: 3090271323955710351}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22336,7 +22641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7093337149056335929}
   - component: {fileID: 6413395117286634682}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Climb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22578,7 +22883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486856078053942881}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_ThumbTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22595,7 +22900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5736717461941503676}
   - component: {fileID: 4717142927513859623}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Controller Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22759,7 +23064,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3597247847109096791}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_IndexDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22775,7 +23080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9160329024049877353}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_LittleProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23007,7 +23312,7 @@ GameObject:
   - component: {fileID: 3886548470212759336}
   - component: {fileID: 3886548470212759339}
   - component: {fileID: 3886548470212759338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Poke Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23445,7 +23750,7 @@ GameObject:
   - component: {fileID: 1845755271707906743}
   - component: {fileID: 4990213234305842424}
   - component: {fileID: 1756410740788644557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23481,7 +23786,7 @@ GameObject:
   - component: {fileID: 3988629278871097395}
   - component: {fileID: 8931515217112609885}
   - component: {fileID: 6151867480031345452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Teleport Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23991,7 +24296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8107836112881355317}
   - component: {fileID: 2913412882084104001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24026,7 +24331,7 @@ GameObject:
   - component: {fileID: 4143811843366662380}
   - component: {fileID: 4143811843366662383}
   - component: {fileID: 4143811843366662382}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Poke Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24299,7 +24604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7325512346742509918}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_MiddleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24319,7 +24624,7 @@ GameObject:
   - component: {fileID: 7253931171397463489}
   - component: {fileID: 1188992719866960983}
   - component: {fileID: 7966285635926291991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24348,7 +24653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2616231734887000759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_ThumbDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24420,7 +24725,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5995359901152306278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_ThumbProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24436,7 +24741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6467741005984489995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_ThumbProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25013,7 +25318,7 @@ GameObject:
   - component: {fileID: 1738543290452841201}
   - component: {fileID: 8546801752911475280}
   - component: {fileID: 5922755516523569434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25316,7 +25621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4763085286857432317}
   - component: {fileID: 4763085286857432318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Input Action Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25362,7 +25667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4763085287933271810}
   - component: {fileID: 4763085287933271811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XR Interaction Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25457,7 +25762,7 @@ GameObject:
   - component: {fileID: 4763085288497294734}
   - component: {fileID: 4763085288497294735}
   - component: {fileID: 4763085288497294733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25804,7 +26109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5689670181022129469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_LittleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25823,7 +26128,7 @@ GameObject:
   - component: {fileID: 3699474643661442140}
   - component: {fileID: 8675900173557534304}
   - component: {fileID: 4269157324128376504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaze Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25841,7 +26146,7 @@ GameObject:
   - component: {fileID: 7759970373049197378}
   - component: {fileID: 3993935495231163661}
   - component: {fileID: 7659924845214317368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26257,7 +26562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8663346397586204671}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_IndexProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26331,7 +26636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3890312825419647577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_RingIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26350,7 +26655,7 @@ GameObject:
   - component: {fileID: 4518046743710390238}
   - component: {fileID: 6026232466363039107}
   - component: {fileID: 7574454885914741233}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pinch Point Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26397,7 +26702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7130374482880508988}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaze Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26414,7 +26719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2828911743870970260}
   - component: {fileID: 7745083921282649589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Gaze Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26438,7 +26743,7 @@ GameObject:
   - component: {fileID: 4434854620011876863}
   - component: {fileID: 2357637167079074765}
   - component: {fileID: 3262857399866891127}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pinch Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26510,7 +26815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075072167964331396}
   - component: {fileID: 1657145901149947061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hands Smoothing Post Processor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26669,7 +26974,7 @@ GameObject:
   - component: {fileID: 9028519905089269626}
   - component: {fileID: 6088768612411481809}
   - component: {fileID: 2409537580846698356}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26700,7 +27005,7 @@ Transform:
   m_GameObject: {fileID: 865075384207369476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.9, y: -12.15, z: -296.2}
+  m_LocalPosition: {x: 100.9, y: -10.08, z: -296.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26737,7 +27042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 928264830418186426}
   - component: {fileID: 2555540828906391926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Direct Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26754,7 +27059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8522736312331832104}
   - component: {fileID: 51136864987237011}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Locomotion System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26871,7 +27176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 753285102728331065}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_MiddleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26937,7 +27242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4858145669500618030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_ThumbMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27543,7 +27848,7 @@ GameObject:
   - component: {fileID: 3299917205943816082}
   - component: {fileID: 1122941080}
   - component: {fileID: 8439378142402482517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -27684,7 +27989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 567199660373348606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_LittleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27830,7 +28135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9105712192281088804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_Wrist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27847,7 +28152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2258528479108369371}
   - component: {fileID: 2501587548692103301}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Controller Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27910,7 +28215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2735015573747754346}
   - component: {fileID: 635145868215734178}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WebXRInputSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27975,7 +28280,7 @@ GameObject:
   - component: {fileID: 5570228798186563843}
   - component: {fileID: 279160691342767649}
   - component: {fileID: 8841576904509081842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28222,7 +28527,7 @@ GameObject:
   - component: {fileID: 6822203088706070257}
   - component: {fileID: 8477777587549328366}
   - component: {fileID: 6822203088706070256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hand Direct Interactor Affordances
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28253,7 +28558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2656782688373045398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_LittleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28269,7 +28574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8195376306429594450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_IndexTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28301,7 +28606,7 @@ GameObject:
   - component: {fileID: 4170315121750046440}
   - component: {fileID: 6296932238201460297}
   - component: {fileID: 8344816789444756739}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28591,7 +28896,7 @@ GameObject:
   - component: {fileID: 3732767132790094586}
   - component: {fileID: 8138630771712393268}
   - component: {fileID: 5100192227581828401}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28654,7 +28959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5375036910861927863}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_Wrist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28721,7 +29026,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5926412118415466786}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_LittleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28737,7 +29042,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1299863696405957342}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_MiddleDistal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28753,7 +29058,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9167875561886167715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_RingProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28769,7 +29074,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1318528810646857621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_RingProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28803,7 +29108,7 @@ GameObject:
   - component: {fileID: 1996358090823576549}
   - component: {fileID: 3828217837303737890}
   - component: {fileID: 8934151834254549041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28819,7 +29124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4675933373997819399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_MiddleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28839,7 +29144,7 @@ GameObject:
   - component: {fileID: 1729996235245041518}
   - component: {fileID: 3933573924234900137}
   - component: {fileID: 8667785176365579450}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28892,7 +29197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5586236447554323116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_MiddleTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29400,7 +29705,7 @@ GameObject:
   - component: {fileID: 5466822177736270085}
   - component: {fileID: 2281270896739028010}
   - component: {fileID: 8475604865192485669}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XR Screen Space Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29617,7 +29922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3304927287554080629}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_IndexIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29663,7 +29968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5472511476347075789}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_LittleIntermediate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29679,7 +29984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2274072807889608081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_IndexProximal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30201,7 +30506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7273130153544675451}
   - component: {fileID: 7122612562179380253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30319,7 +30624,7 @@ GameObject:
   - component: {fileID: 6036684954678248599}
   - component: {fileID: 8537567505854785995}
   - component: {fileID: 8428877333823059781}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Right Hand Interaction Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30340,7 +30645,7 @@ GameObject:
   - component: {fileID: 3167067900939823820}
   - component: {fileID: 7291146844747818207}
   - component: {fileID: 4782410197472157265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ray Interactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30824,7 +31129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7698830370400733764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_IndexMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30853,7 +31158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8634004311911413377}
   - component: {fileID: 2138730023147049289}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Poke Stabilized Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30877,7 +31182,7 @@ GameObject:
   - component: {fileID: 728913843017870845}
   - component: {fileID: 1670370383665993679}
   - component: {fileID: 1932506052262963061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pinch Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30940,7 +31245,7 @@ GameObject:
   - component: {fileID: 658941802099305436}
   - component: {fileID: 7221277908755644801}
   - component: {fileID: 6812685194732287475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pinch Point Stabilized
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31044,7 +31349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7279707053657338215}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_ThumbTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31060,7 +31365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6144675627369002540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: L_MiddleMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31144,7 +31449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3127068700605313308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: R_RingMetacarpal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
