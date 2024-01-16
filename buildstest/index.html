@@ -91,16 +91,6 @@
       let enterARButton = document.getElementById('enterar');
       let enterVRButton = document.getElementById('entervr');
 
-      // if platform is AR make VR not visible also click on the right button
-      if (platform == "ar") {
-        enterVRButton.style.display = "none";
-        alert("Please press on the AR button for starting the route")
-      }
-      // if platform is VR make AR not visible also click on the right button
-      else if (platform == "vr") {
-        enterARButton.style.display = "none";
-      }
-
       document.addEventListener('onARSupportedCheck', function (event) {
         enterARButton.disabled = !event.detail.supported;
       }, false);
