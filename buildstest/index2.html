@@ -90,6 +90,11 @@ video {
         <div class="section">
             <div id="my-qr-reader">
             </div>
+            <select id="dropdown" style="display: none;">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <!-- Add more options as needed -->
+            </select>
         </div>
     </div>
     <script
@@ -111,6 +116,8 @@ domReady(function () {
  
     // If found you qr code
     function onScanSuccess(decodeText, decodeResult) {
+        // Show the dropdown
+        document.getElementById('dropdown').style.display = 'block';
         switch (decodeText) {
           case "WC":
             console.log("IT was WC")
