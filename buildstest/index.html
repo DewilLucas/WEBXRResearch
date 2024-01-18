@@ -44,13 +44,12 @@
         // Go to index.html
         window.location.href='index3.html';
       }
-      
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/buildstest.loader.js";
       var config = {
-        dataUrl: buildUrl + "/buildstest.data.unityweb",
-        frameworkUrl: buildUrl + "/buildstest.framework.js.unityweb",
-        codeUrl: buildUrl + "/buildstest.wasm.unityweb",
+        dataUrl: buildUrl + "/buildstest.data",
+        frameworkUrl: buildUrl + "/buildstest.framework.js",
+        codeUrl: buildUrl + "/buildstest.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WEBXRResearch",
@@ -104,7 +103,6 @@
       enterVRButton.addEventListener('click', function (event) {
         unityInstance.Module.WebXR.toggleVR();
       }, false);
-      
     </script>
   </body>
 </html>
