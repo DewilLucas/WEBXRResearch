@@ -65874,7 +65874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 234db2f678d51494e95b3172844013b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  locationDropdown: {fileID: 0}
+  locationDropdown: {fileID: 1807698405}
   targetObject: {fileID: 326094248}
 --- !u!1 &1450189639
 GameObject:
@@ -67661,7 +67661,19 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1447888973}
+        m_TargetAssemblyTypeName: SetTargetLocationScript, Assembly-CSharp
+        m_MethodName: OnLocationSelected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!114 &1807698406
 MonoBehaviour:
