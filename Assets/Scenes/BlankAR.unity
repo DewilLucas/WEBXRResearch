@@ -330,6 +330,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Interaction WebXR Setup
       objectReference: {fileID: 0}
+    - target: {fileID: 865075385244835223, guid: 1644f8f6d950f87408375866a875e80d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1242824984831361006, guid: 1644f8f6d950f87408375866a875e80d,
         type: 3}
       propertyPath: m_StaticEditorFlags
