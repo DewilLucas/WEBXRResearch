@@ -7,11 +7,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerNav : MonoBehaviour
 {
-    private LineRenderer line;
+     private LineRenderer line;
     public Transform target;
     public GameObject floor;
     public GameObject Stair;
 
+    public GameObject Robot;
+    private NavMeshAgent robotAgent;
+    private int currentCorner = 0; // The current corner the robot is moving towards
 
     public float margin = 0.1f; // Set the margin you want for the line
     void Start()
@@ -20,6 +23,7 @@ public class PlayerNav : MonoBehaviour
         line.positionCount = 2;
         line.startWidth = 0.1f;
         line.endWidth = 0.1f;
+        robotAgent = Robot.GetComponent<NavMeshAgent>();
     }
 
     void Update()
@@ -46,8 +50,17 @@ public class PlayerNav : MonoBehaviour
         // Set the positions to the LineRenderer
         line.positionCount = positions.Length;
         line.SetPositions(positions);
+
+        // If the robot has not reached the last corner, set the destination to the current corner
+        if (currentCorner < positions.Length)
+        {
+            robotAgent.SetDestination(positions[currentCorner+1]);
+        }
+        // If the robot has reached the last corner, stop
+        else
+        {
+            robotAgent.SetDestination(Robot.transform.position);
+        }
     }
-
-
 
 }
