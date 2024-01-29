@@ -1,5 +1,5 @@
 # WEBXRResearch
-# Installation Guide
+## Installation Guide
 
 Author: Lucas Dewil
 
