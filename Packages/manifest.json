@@ -2,10 +2,12 @@
   "dependencies": {
     "com.de-panther.webxr": "0.20.0",
     "com.de-panther.webxr-interactions": "https://github.com/De-Panther/unity-webxr-export.git?path=/Packages/webxr-interactions",
+    "com.readyplayerme.core": "https://github.com/readyplayerme/rpm-unity-sdk-core.git",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.ar": "1.0.1",
     "com.unity.feature.development": "1.0.1",
+    "com.unity.formats.fbx": "4.2.1",
     "com.unity.learn.iet-framework": "3.1.3",
     "com.unity.shadergraph": "14.0.8",
     "com.unity.textmeshpro": "3.0.6",
